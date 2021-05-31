@@ -10,7 +10,7 @@ on:
 
 jobs:
   scheduled:
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
     steps: # This workflow has 3 steps
       # The first step is to check out the repository so it can read the files inside of it and do other operations
       - name: Check out repo
